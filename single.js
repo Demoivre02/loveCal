@@ -1,7 +1,5 @@
 var h1= document.querySelector("h1")
 const h2= document.querySelector(".secondreply h2")
-const UserName= document.querySelector("#username").value
-const crush= document.querySelector("#crush").value
 var x= Math.random()
 x= Math.round(((x*100)+1))
 
@@ -29,6 +27,8 @@ function getCurrentDate() {
 getCurrentDate();
 
 function calculate(){
+    const UserName= document.querySelector("#username").value
+    const crush= document.querySelector("#crush").value
     if(x >= 95){
          h1.innerHTML= x+"%"
           h2.innerHTML = "you" +" "+ "and "+ " "+ crush+ " "+" are life partners, you should never leave them" 
