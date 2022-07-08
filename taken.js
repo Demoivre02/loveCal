@@ -1,7 +1,5 @@
 var h1= document.querySelector("h1")
 const h2= document.querySelector(".secondreply h2")
-const UserName= document.querySelector("#username").value
-const partner= document.querySelector("#partner").value
 var x= Math.random()
 x= Math.round(((x*100)+1))
 
@@ -27,6 +25,8 @@ function getCurrentDate() {
 }
 
 function calculate(){
+    const UserName= document.querySelector("#username").value
+    const partner= document.querySelector("#partner").value
     if(x >= 95){
          h1.innerHTML= x+"%"
           h2.innerHTML = "you" +" "+ "and "+ " "+ partner+ " "+" are compatible" 
