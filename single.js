@@ -37,7 +37,7 @@ function calculate(){
         h2.innerHTML ="you" +" "+ "and "+ " " + crush+ " "+" are not bad together" 
     }else if(x>=50 && x<70){
         h1.innerHTML= x+"%"
-        h2.innerHTML =crush +"go cheat, but you fit manage am" 
+        h2.innerHTML = crush+" " +"go cheat, but you fit manage am" 
     }else if(x>20 && x<50 ){
         h1.innerHTML= x+"%"
         h2.innerHTML ="You dey find trouble" 
