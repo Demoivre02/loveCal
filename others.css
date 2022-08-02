@@ -16,11 +16,11 @@ header{
 }
 h2{
     font-family: 'Roboto', sans-serif;
-    color: #EEEEEE;
+    color: #041562;
     font-size: 1.2rem;
 }
 h3{
-    color: #EEEEEE;
+    color: #041562;
     font-size: 1rem;
     font-family: 'Edu QLD Beginner', cursive;
 }
@@ -33,7 +33,7 @@ h3{
 
 }
 p{
-    color: #EEEEEE;
+    color: #041562;
     font-family: 'Roboto', sans-serif;
 }
 ul{
@@ -45,7 +45,7 @@ ul{
 }
 ul li{
     list-style: none;
-    color: #EEEEEE ;
+    color: #041562 ;
 }
 ul li a{
     font-family: 'Montserrat', sans-serif;
@@ -84,7 +84,7 @@ input{
 
 footer{
     font-family: 'Roboto', sans-serif; 
-    color: #EEEEEE;
+    color: #041562;
 }
 .btn {
     -webkit-border-radius: 28;
@@ -112,6 +112,6 @@ footer{
       margin-top: 3em;
   }
   h1{
-      color: #EEEEEE;
+      color: #041562;
       font-size: 1.3rem;
   }
